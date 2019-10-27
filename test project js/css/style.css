@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+#list{
+    border:2px solid green;
+    height: 35%;
+    width: 33%;
+}
+
+
+
+#dish-list{
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;   
+    cursor: pointer
+
+}
+

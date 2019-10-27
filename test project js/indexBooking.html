@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Restaurant Booking</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <form>
+      <h1>Book A Table</h1> 
+        First Name:<input type="text" id="fname">
+        <br>
+        <br>
+        Last Name:<input type="text" id="lname">
+        <br>
+        <br>
+        Visiting Date:<input type="date" id="date">
+        <br>
+        <br>
+        Visiting Time:<input type="time" id="time">
+        <br>
+        <br>
+        Table type:
+        <select>
+          <option value="2-personTable">2-person Table</option>
+          <option value="4-personTable">4-person Table</option>
+          <option value="6-personTable">6-person Table</option>
+          <option value="8-personTable">8-person Table</option>
+        </select>
+        <br>
+        <br>
+        Telephone Number:<input type= "tel" id="telnum">
+        <br>
+        <br>
+        Email Adress: <input type= "email" id="email">
+        <br>
+        <br>
+        Would like to be contacted by
+        <br>
+        <br>
+        <input type = "radio" name="contactMethod" value="telephoe" >Telephone
+        <br>
+        <input type = "radio" name="contactMethod" value="email" >Email
+        <br>
+        <br>
+        <label for= "note" id="note">Note:</label>
+        <textarea row="7" cols= "30" type ="text" placeholder="what do you want us to know?"></textarea><br><br>
+        <br>
+        <br>
+        <br>
+        <button id= "clear-button" onclick="clearBooking()">Clear</button>
+        <button id= "add-button" onclick="addBooking()">Submit</button>
+
+
+
+
+    </form>
+    
+    <script src="/js/Customer.js"></script>
+    
+  
+  </body>
+</html>
